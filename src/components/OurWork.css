@@ -1,0 +1,72 @@
+.ourwork {
+  min-height: 100vh;
+  padding: 80px 20px;
+  text-align: center;
+  color: #ffff00;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.ourwork-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #ffff00;
+}
+
+.ourwork-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  perspective: 1000px;
+}
+
+.ourwork-left {
+  width: 45vw;
+  transform-style: preserve-3d;
+}
+
+.ourwork-right {
+  width: 45vw;
+  margin-top: 70vh;
+  transform-style: preserve-3d;
+}
+
+.ourwork-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.ourwork-card-left {
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 5rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+  opacity: 0; /* Start hidden */
+  background-color: #ffff00;
+  color: #000;
+}
+
+.ourwork-card-right {
+  height: 100vh;
+  width: 100%;
+  margin-top: 5rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+  opacity: 0; /* Start hidden */
+}
+
+/* Ensure all parent elements support 3D */
+html, body, #root {
+  transform-style: preserve-3d;
+}
