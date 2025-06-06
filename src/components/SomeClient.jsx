@@ -1,31 +1,30 @@
-import React from 'react';
-import './SomeClient.css';
+import React from "react";
+import "./SomeClient.css";
 
 const SomeClient = () => {
-  // Define client logos with exact names from the image
   const clients = [
-    { name: 'Octave Mettle', logo: 'https://example.com/octave-mettle.png' },
-    { name: 'Azon Steel', logo: 'https://example.com/azon-steel.png' },
-    { name: 'Guru Ram Das Academy', logo: 'https://example.com/guru-ram-das.png' },
-    { name: 'QQ Solutions', logo: 'https://example.com/qq-solutions.png' },
-    { name: 'Right Horizons', logo: 'https://example.com/right-horizons.png' },
-    { name: 'Shyam Medtech', logo: 'https://example.com/shyam-medtech.png' },
-    { name: 'Service Print & Copy', logo: 'https://example.com/service-print.png' },
-    
-    { name: 'Bhavya Industries', logo: 'https://example.com/bhavya-industries.png' },
-    { name: 'Craftsmen', logo: 'https://example.com/craftsmen.png' },
-    { name: 'Initial Security', logo: 'https://example.com/initial-security.png' },
-    { name: 'Modern Orthodontics', logo: 'https://example.com/modern-orthodontics.png' },
-    { name: 'Happyj', logo: 'https://example.com/happyj.png' },
-    { name: 'Hombale Films', logo: 'https://example.com/hombale-films.png' },
-    { name: 'Recruiteze', logo: 'https://example.com/recruiteze.png' },
-    
-    { name: 'Bharat International', logo: 'https://example.com/bharat-international.png' },
-    { name: 'Ortho Derma', logo: 'https://example.com/ortho-derma.png' },
-    { name: 'Future Finx', logo: 'https://example.com/future-finx.png' },
-    { name: 'Stryder', logo: 'https://example.com/stryder.png' },
-    { name: 'Vega', logo: 'https://example.com/vega.png' },
-    { name: 'Wathif', logo: 'https://example.com/wathif.png' },
+    { name: "Octave Mettle", logo: "/octave.png" },
+    { name: "Azon Steel", logo: "/octave.png" },
+    { name: "Guru Ram Das Academy", logo: "/octave.png" },
+    { name: "QQ Solutions", logo: "/octave.png" },
+    { name: "Right Horizons", logo: "octave.png" },
+    { name: "Shyam Medtech", logo: "octave.png" },
+    { name: "Service Print & Copy", logo: "avon.png" },
+
+    { name: "Bhavya Industries", logo: "avon.png" },
+    { name: "Craftsmen", logo: "avon.png" },
+    { name: "Initial Security", logo: "qq.png" },
+    { name: "Modern Orthodontics", logo: "qq.png" },
+    { name: "Happyj", logo: "avon.png" },
+    { name: "Hombale Films", logo: "qq.png" },
+    { name: "Recruiteze", logo: "avon.png" },
+
+    { name: "Bharat International", logo: "octave.png" },
+    { name: "Ortho Derma", logo: "shyam.png" },
+    { name: "Future Finx", logo: "shyam.png" },
+    { name: "Stryder", logo: "shyam.png" },
+    { name: "Vega", logo: "shyam.png" },
+    { name: "Wathif", logo: "shyam.png" },
   ];
 
   return (
@@ -36,8 +35,8 @@ const SomeClient = () => {
           {clients.map((client, index) => (
             <div key={index} className="client-card">
               <div className="client-logo-wrapper">
-                <img 
-                  src={client.logo} 
+                <img
+                  src={client.logo}
                   alt={`${client.name} logo`}
                   className="client-logo"
                 />

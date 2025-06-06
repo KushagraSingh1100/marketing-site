@@ -6,7 +6,6 @@ import Footer from "./components/Footer.jsx";
 function App() {
   return (
     <div>
-      <div className="upper"></div>
       <OurWork />
       <SomeClient />
       <Footer />

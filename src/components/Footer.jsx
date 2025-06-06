@@ -1,5 +1,10 @@
 import React from "react";
 import "./Footer.css";
+import { FaYoutube } from "react-icons/fa6";
+import { CiInstagram } from "react-icons/ci";
+import { FaLinkedin } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -69,19 +74,19 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="social-links">
           <a href="#" className="social-icon facebook">
-            f
+            <FaFacebook />
           </a>
           <a href="#" className="social-icon linkedin">
-            in
+            <FaLinkedin />
           </a>
           <a href="#" className="social-icon instagram">
-            ig
+            <CiInstagram />
           </a>
           <a href="#" className="social-icon whatsapp">
-            w
+            <FaWhatsappSquare />
           </a>
           <a href="#" className="social-icon youtube">
-            yt
+            <FaYoutube />
           </a>
         </div>
 
@@ -106,7 +111,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <div className="contact-us-button">CONTACT US</div> */}
     </footer>
   );
 };

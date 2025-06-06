@@ -94,10 +94,10 @@ export default function OurWork() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: card,
-            start: "top 80%",
+            start: "top 95%",
             end: "top 20%",
-            scrub: 1, // <- smoother scrub, finishes as you reach 'end'
-            // markers: true, // optional for debugging
+            scrub: 1,
+            // markers: true,
           },
         }
       );
@@ -120,9 +120,10 @@ export default function OurWork() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: card,
-            start: "top 80%",
+            start: "top 95%",
             end: "top 20%",
-            scrub: 1, // same here
+
+            scrub: 1,
             // markers: true,
           },
         }
