@@ -1,0 +1,68 @@
+.home-page{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.home-carousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.home-text{
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-text h1{
+    font-size: 3.8em;
+    margin: 0;
+}
+
+.home-text h3{
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.home-text button{
+    all: unset;
+    color: black;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: white;
+    margin-top: 1.5em;
+
+    &:hover{
+        opacity: 75%;
+        cursor: pointer;
+    }
+}
+
+.home-text span{
+    color: white;
+}
+
+.vertical-contact{
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    transform: rotate(-0.25turn);
+}
+
+.vertical-contact button{
+    width: 10em;
+    height: 3em;
+    background-color: yellow;
+    color: black;
+    border-radius: 2em;
+
+    &:hover{
+        cursor: pointer;
+        opacity: 75%;
+    }
+}

@@ -77,7 +77,7 @@ export default function OurWork() {
       transformOrigin: "center bottom",
     });
 
-    leftCards.forEach((card, i) => {
+    leftCards.forEach((card) => {
       gsap.fromTo(
         card,
         {
@@ -103,7 +103,7 @@ export default function OurWork() {
       );
     });
 
-    rightCards.forEach((card, i) => {
+    rightCards.forEach((card) => {
       gsap.fromTo(
         card,
         {
