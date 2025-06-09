@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const worksleft = [
+const works = [
   {
     title: "Social Media Marketing",
     image: "/work1.jpg",
@@ -27,28 +27,7 @@ const worksleft = [
     image: "/work2.jpg",
   },
 ];
-const worksright = [
-  {
-    title: "Social Media Marketing",
-    image: "/work1.jpg",
-  },
-  {
-    title: "Web Design",
-    image: "/work2.jpg",
-  },
-  {
-    title: "Brand Identity",
-    image: "/work3.jpg",
-  },
-  {
-    title: "App Development",
-    image: "/work3.jpg",
-  },
-  {
-    title: "Video Production",
-    image: "/work2.jpg",
-  },
-];
+
 export default function OurWork() {
   const containerRef = useRef(null);
   const leftSectionRef = useRef(null);
@@ -64,67 +43,48 @@ export default function OurWork() {
     const rightCards = document.querySelectorAll(".ourwork-card-right");
 
     gsap.set(leftCards, {
-      rotateX: 90,
-      y: 100,
+      x: -100,
       opacity: 0,
-      transformOrigin: "center bottom",
     });
 
     gsap.set(rightCards, {
-      rotateX: 90,
-      y: 100,
+      x: 100,
       opacity: 0,
-      transformOrigin: "center bottom",
     });
 
-    leftCards.forEach((card, i) => {
+    leftCards.forEach((card) => {
       gsap.fromTo(
         card,
+        { x: -300, opacity: 0 },
         {
-          rotateX: 90,
-          y: 100,
-          opacity: 0,
-          transformOrigin: "center bottom",
-        },
-        {
-          rotateX: 0,
-          y: 0,
+          x: 0,
           opacity: 1,
-          duration: 1.2,
+          duration: 2,
           ease: "power3.out",
           scrollTrigger: {
             trigger: card,
-            start: "top 95%",
+            start: "top 105%",
             end: "top 20%",
             scrub: 1,
-            // markers: true,
           },
         }
       );
     });
 
-    rightCards.forEach((card, i) => {
+    rightCards.forEach((card) => {
       gsap.fromTo(
         card,
+        { x: 500, opacity: 0 },
         {
-          rotateX: 90,
-          y: 100,
-          opacity: 0,
-          transformOrigin: "center bottom",
-        },
-        {
-          rotateX: 0,
-          y: 0,
+          x: 0,
           opacity: 1,
-          duration: 1.2,
+          duration: 2,
           ease: "power3.out",
           scrollTrigger: {
             trigger: card,
-            start: "top 95%",
+            start: "top 105%",
             end: "top 20%",
-
             scrub: 1,
-            // markers: true,
           },
         }
       );
@@ -140,14 +100,14 @@ export default function OurWork() {
       <h2 className="ourwork-title">Our Work</h2>
       <div className="ourwork-card-container">
         <div className="ourwork-left" ref={leftSectionRef}>
-          {worksleft.map((work, index) => (
+          {works.map((work, index) => (
             <div key={index} className="ourwork-card ourwork-card-left">
               <img src={work.image} alt={work.title} className="ourwork-img" />
             </div>
           ))}
         </div>
         <div className="ourwork-right" ref={rightSectionRef}>
-          {worksright.map((work, index) => (
+          {works.map((work, index) => (
             <div key={index} className="ourwork-card ourwork-card-right">
               <img src={work.image} alt={work.title} className="ourwork-img" />
             </div>
