@@ -48,6 +48,7 @@
   overflow: hidden;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+  transform: translateX(-300);
   will-change: transform, opacity;
   opacity: 0;
   background-color: #ffff00;
@@ -62,6 +63,7 @@
   overflow: hidden;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+  transform: translateX(300);
   will-change: transform, opacity;
   opacity: 0;
 }
