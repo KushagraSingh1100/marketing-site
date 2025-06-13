@@ -2,7 +2,7 @@ import "./Services.css";
 
 function Services() {
   return (
-    <div className="services">
+    <div id="services" className="services">
       <h1>Our Services</h1>
       <div className="list-services">
         <div className="service">
@@ -12,7 +12,7 @@ function Services() {
             creativity and functionality to craft websites that resonate with
             your audience and drive conversions.
           </p>
-          <button>Learn More <span>▶</span></button>
+          <a href="/web"><button>Learn More <span>▶</span></button></a>
         </div>
         <div className="service">
           <h2>Social-Media Management</h2>
@@ -21,7 +21,7 @@ function Services() {
             strategies that build brand awareness, foster community, and boost
             customer engagement across all major platforms.
           </p>
-          <button>Learn More <span>▶</span></button>
+          <a href="/social-media"><button>Learn More <span>▶</span></button></a>
         </div>
         <div className="service">
           <h2>Search Engine Optimization</h2>
@@ -30,7 +30,7 @@ function Services() {
             our comprehensive SEO strategies, propelling your website to the top
             of search engine rankings.
           </p>
-          <button>Learn More <span>▶</span></button>
+          <a href="/seo"><button>Learn More <span>▶</span></button></a>
         </div>
         <div className="service">
           <h2>Graphic Work</h2>
@@ -39,7 +39,7 @@ function Services() {
             deliver visually stunning designs that reflect your brand identity
             and captivate your target audience.
           </p>
-          <button>Learn More <span>▶</span></button>
+          <a href="/graphic"><button>Learn More <span>▶</span></button></a>
         </div>
         <div className="service">
           <h2>Ads Management</h2>
@@ -48,7 +48,7 @@ function Services() {
             advertising campaigns across Google, Meta, and other platforms to
             reach the right audience at the right time.
           </p>
-          <button>Learn More <span>▶</span></button>
+          <a href="/ads"><button>Learn More <span>▶</span></button></a>
         </div>
         <div className="service">
           <h2>Branding Work</h2>
@@ -57,7 +57,7 @@ function Services() {
             visual identity, ensuring consistency and impact across all customer
             touchpoints.
           </p>
-          <button>Learn More <span>▶</span></button>
+          <a href="/brand"><button>Learn More <span>▶</span></button></a>
         </div>
       </div>
     </div>

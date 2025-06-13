@@ -96,7 +96,7 @@ export default function OurWork() {
   }, []);
 
   return (
-    <section className="ourwork" ref={containerRef}>
+    <section id="works" className="ourwork" ref={containerRef}>
       <h2 className="ourwork-title">Our Work</h2>
       <div className="ourwork-card-container">
         <div className="ourwork-left" ref={leftSectionRef}>

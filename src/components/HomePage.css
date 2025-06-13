@@ -1,21 +1,44 @@
-.home-page{
+.home-page {
     width: 100%;
     height: 120vh;
     position: relative;
 }
 
-.home-carousel{
+.home-carousel {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.home-carousel img{
+.carousel-image-wrapper {
+    position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
-.home-text{
+.carousel-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.3;
+        transform: scale(1.02);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.home-text {
     position: absolute;
     top: 25%;
     left: 36%;
@@ -25,19 +48,21 @@
 }
 
 .home-text h1 {
-  font-size: 3.8em;
-  margin: 0;
-  color: rgb(255, 217, 0); /* or any fill color */
-  -webkit-text-stroke: 1px rgb(135, 135, 135); /* border around letters */
+    font-size: 3.8em;
+    margin: 0;
+    color: rgb(255, 217, 0);
+    /* or any fill color */
+    -webkit-text-stroke: 1px rgb(135, 135, 135);
+    /* border around letters */
 }
 
 
-.home-text h3{
+.home-text h3 {
     font-size: 1.3em;
     margin: 0;
 }
 
-.home-text button{
+.home-text button {
     all: unset;
     color: black;
     padding: 1em;
@@ -45,31 +70,31 @@
     background-color: white;
     margin-top: 1.5em;
 
-    &:hover{
+    &:hover {
         opacity: 75%;
         cursor: pointer;
     }
 }
 
-.home-text span{
+.home-text span {
     color: black;
 }
 
-.vertical-contact{
+.vertical-contact {
     position: absolute;
     top: 50%;
     right: -2%;
     transform: rotate(-0.25turn);
 }
 
-.vertical-contact button{
+.vertical-contact button {
     width: 10em;
     height: 3em;
     background-color: rgb(255, 217, 0);
     color: black;
     border-radius: 2em;
 
-    &:hover{
+    &:hover {
         cursor: pointer;
         opacity: 75%;
     }
