@@ -1,5 +1,5 @@
 .clients-section {
-  background-color: #000;
+  background-color: white;
   /* padding: 40px 0; */
   /* width: 100%; */
 }
@@ -7,11 +7,11 @@
 .clients-container {
   /* max-width: 1200px; */
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 50px 15px ;
 }
 
 .section-title {
-  color: #ffff00;
+  color: rgb(255, 217, 0);
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 40px;

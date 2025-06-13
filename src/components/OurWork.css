@@ -1,9 +1,10 @@
 .ourwork {
-  min-height: 100vh;
-  padding: 0 20px;
+  height: min-content;
+  padding: 50px 20px;
+  padding-top: 0;
   text-align: center;
-  color: #ffff00;
-  background-color: #000;
+  color: rgb(255, 217, 0);
+  background-color: white;
   overflow: hidden;
 }
 
@@ -11,7 +12,7 @@
   font-size: 36px;
   font-weight: bold;
   /* margin-bottom: 40px; */
-  color: #ffff00;
+  color: rgb(255, 217, 0);
 }
 
 .ourwork-card-container {
@@ -30,7 +31,6 @@
 
 .ourwork-right {
   width: 45vw;
-  margin-top: 70vh;
   transform-style: preserve-3d;
 }
 
@@ -41,7 +41,8 @@
 }
 
 .ourwork-card-left {
-  height: 100vh;
+  box-shadow: -10px 2px 40px rgb(0, 0, 0, 0.5);
+  height: 60vh;
   width: 100%;
   margin-bottom: 5rem;
   border-radius: 2rem;
@@ -51,12 +52,13 @@
   transform: translateX(-300);
   will-change: transform, opacity;
   opacity: 0;
-  background-color: #ffff00;
+  background-color: rgb(255, 217, 0);
   color: #000;
 }
 
 .ourwork-card-right {
-  height: 100vh;
+  box-shadow: 10px 2px 40px rgb(0, 0, 0, 0.5);
+  height: 60vh;
   width: 100%;
   margin-top: 5rem;
   border-radius: 2rem;

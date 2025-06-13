@@ -1,11 +1,16 @@
 .home-page{
     width: 100%;
-    height: 70vh;
+    height: 120vh;
     position: relative;
 }
 
 .home-carousel{
     position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.home-carousel img{
     width: 100%;
     height: 100%;
 }
@@ -19,10 +24,13 @@
     align-items: center;
 }
 
-.home-text h1{
-    font-size: 3.8em;
-    margin: 0;
+.home-text h1 {
+  font-size: 3.8em;
+  margin: 0;
+  color: rgb(255, 217, 0); /* or any fill color */
+  -webkit-text-stroke: 1px rgb(135, 135, 135); /* border around letters */
 }
+
 
 .home-text h3{
     font-size: 1.3em;
@@ -44,7 +52,7 @@
 }
 
 .home-text span{
-    color: white;
+    color: black;
 }
 
 .vertical-contact{
@@ -57,7 +65,7 @@
 .vertical-contact button{
     width: 10em;
     height: 3em;
-    background-color: yellow;
+    background-color: rgb(255, 217, 0);
     color: black;
     border-radius: 2em;
 
