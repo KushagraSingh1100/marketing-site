@@ -44,7 +44,7 @@
 .nav-links ul, li{
     all: unset;
     color: white;
-    gap:2em;
+    gap:1em;
     display: flex;
     flex-direction: row;
 }
@@ -54,6 +54,13 @@
         opacity: 75%;
         cursor: pointer;
     }
+}
+
+.nav-contact-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
 }
 
 .nav-contact-btn button{

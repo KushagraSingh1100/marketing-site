@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar.jsx";
 import HomePage from "./components/HomePage.jsx";
 import Services from "./components/Services.jsx";
 import SomeClient from "./components/SomeClient.jsx";
+import As from "./components/As.jsx";
 import Footer from "./components/Footer.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import WebdevelopmentService from "./components/WebdevelopmentService.jsx";
@@ -24,6 +25,7 @@ function App() {
             element={
               <>
                 <HomePage />
+                <As/>
                 <Services />
                 <OurWork />
                 <SomeClient />{" "}

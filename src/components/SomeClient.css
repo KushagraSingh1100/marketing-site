@@ -38,6 +38,12 @@
   justify-content: center;
   padding: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+  &:hover{
+    scale: 1.05;
+    cursor: pointer;
+     box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.3);
+  }
 }
 
 .client-logo-wrapper {
