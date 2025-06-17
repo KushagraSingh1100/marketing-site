@@ -10,9 +10,6 @@ function Navbar() {
             <h1>IGNITE DIGITALS</h1>
           </div>
         </a>
-        <div className="logo-bottom">
-          <h3>Web Development and Social Media Management</h3>
-        </div>
       </div>
       <div className="nav-contact-btn">
         <div className="nav-links">

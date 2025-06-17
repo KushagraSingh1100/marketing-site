@@ -64,15 +64,15 @@ function HomePage() {
           />
         </div>
         <div className="home-text">
-          <h3>Meet your next digital agency</h3>
+          <h3>Wish Your Brand Was the First Choice, Every Time ?</h3>
           <h1>
-            Move Forward<span>.</span>
+            We craft digital strategies that make you impossible to ignore<span>.</span>
           </h1>
           <h1>
-            Move Faster<span>.</span>
+            Take the shortcut to market domination<span>.</span>
           </h1>
           <button>
-            <h3>Have a project? Let’s talk</h3>
+            <h3>Book Your Free Consultation</h3>
           </button>
         </div>
       </div>
