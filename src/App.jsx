@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage.jsx";
 import Services from "./components/Services.jsx";
 import SomeClient from "./components/SomeClient.jsx";
 import As from "./components/As.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 import Footer from "./components/Footer.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import WebdevelopmentService from "./components/WebdevelopmentService.jsx";
@@ -18,6 +19,7 @@ function App() {
   return (
     <div>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route
@@ -25,7 +27,7 @@ function App() {
             element={
               <>
                 <HomePage />
-                <As/>
+                <As />
                 <Services />
                 <OurWork />
                 <SomeClient />{" "}
