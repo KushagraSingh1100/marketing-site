@@ -76,9 +76,6 @@ function HomePage() {
           </button>
         </div>
       </div>
-      <div className="vertical-contact">
-        <button>Contact Us</button>
-      </div>
     </div>
   );
 }
