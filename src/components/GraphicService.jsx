@@ -9,43 +9,64 @@ function GraphicService() {
           Design
         </h1>
         <p>
-          Graphic Design Services: Our graphic design solutions bring your brand to life with
-          visually compelling assets that captivate, communicate, and convert. From logos to
-          marketing materials, we craft every design element with purpose and creativity.
+          Our graphic design services transform ideas into eye-catching visuals
+          that capture attention, communicate your message, and inspire action.
+          From logos to marketing collateral, every design is crafted with
+          intention and creativity to strengthen your brand’s impact.
         </p>
       </div>
       <div className="service-page-bottom">
-        <h1>Our Comprehensive Graphic Design Solutions</h1>
+        <h1>Versatile Solutions for a Cohesive Brand Identity</h1>
         <h4>
-          At Ignite Digitals, we provide versatile graphic design services tailored to elevate your
-          brand identity across all platforms. Our core offerings include:
+          At Ignite Digitals, we deliver graphic design solutions tailored to
+          showcase your brand consistently across every platform. Our core
+          services include:
         </h4>
         <div className="service-page-bottom-points">
           <div className="point">
-            <h3>• Logo & Brand Identity Design</h3>
+            <h3>Logo & Brand Identity Design</h3>
             <p>
-              A strong brand starts with a powerful visual identity. We design unique, memorable
-              logos and brand kits that reflect your brand’s vision and resonate with your
-              audience. From color palettes to typography, we ensure consistency across all touchpoints,
-              helping you stand out in a competitive market.
+              Build a Brand That Inspires Confidence We design distinctive logos
+              and cohesive brand kits that reflect your vision and set you
+              apart.
             </p>
+            <h4>You get:</h4>
+            <ul>
+              <li>• Unique, memorable logo design</li>
+              <li>• Consistent color palettes and typography</li>
+              <li>• A unified look across all brand touchpoints</li>
+            </ul>
+            <p>Make your brand instantly recognizable and trusted.</p>
           </div>
           <div className="point">
-            <h3>• Social Media & Marketing Collateral</h3>
+            <h3>Social Media & Marketing Collateral</h3>
             <p>
-              We create scroll-stopping social media graphics, banners, and promotional designs to
-              enhance your online presence. Whether it's for Instagram, LinkedIn, or email campaigns,
-              our visuals are optimized for engagement and aligned with your messaging and branding.
+              Enhance Your Presence with Purposeful Design We create engaging
+              social media graphics, banners, and marketing materials tailored
+              to your brand.
             </p>
+            <h4>You get:</h4>
+            <ul>
+              <li>• Scroll-stopping visuals for every platform</li>
+              <li>• Promotional graphics aligned with your messaging</li>
+              <li>• Creative assets that boost engagement and reach</li>
+            </ul>
+            <p>Connect with your audience and drive real results.</p>
           </div>
           <div className="point">
-            <h3>• Print Design & Promotional Materials</h3>
+            <h3>Print Design & Promotional Materials</h3>
             <p>
-              Our print design services cover everything from brochures and business cards to event
-              posters and packaging. We combine aesthetics with clarity to deliver designs that not
-              only look great but also communicate effectively in real-world formats. High-resolution
-              outputs and print-ready files ensure seamless production.
+              Bring Your Brand to Life—Anywhere From business cards to
+              packaging, we deliver print-ready designs that impress in any
+              setting.
             </p>
+            <h4>You get:</h4>
+            <ul>
+              <li>• High-impact brochures, posters, and event materials</li>
+              <li>• Partnerships and guest posting to expand your reach</li>
+              <li>• High-resolution, production-ready files</li>
+            </ul>
+            <p>Communicate your brand effectively—online and offline.</p>
           </div>
         </div>
       </div>
