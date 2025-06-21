@@ -9,54 +9,67 @@ function SocialMediaManagement() {
           Management
         </h1>
         <p>
-          Social Media Management Services: Our services help you build a powerful online presence,
-          engage your audience effectively, and grow your brand across all major platforms. We
-          craft data-driven strategies and content that align with your goals and resonate with
-          your target audience to drive growth and engagement.
+          We craft tailored strategies for every platform—Instagram, Facebook,
+          LinkedIn, X, and more. Your brand gets original, engaging content
+          designed to connect with your ideal audience and spark real
+          conversations. Stay relevant, consistent, and always on-trend.
         </p>
       </div>
       <div className="service-page-bottom">
-        <h1>Our Comprehensive Social Media Management Solutions</h1>
+        <h1>Platform-Specific Strategy & Content Creation</h1>
         <h4>
-          At Ignite Digitals, we offer a full spectrum of Social Media Management
-          services tailored to suit various business types and industries. Our
-          expertise includes:
+          At Ignite Digitals, we craft social media strategies that engage your
+          audience and turn followers into brand advocates
         </h4>
         <div className="service-page-bottom-points">
           <div className="point">
-            <h3>• Platform-Specific Strategy & Content Creation</h3>
+            <h3>Platform-Specific Strategy & Content Creation</h3>
             <p>
-              Our expert social media managers develop tailored strategies for platforms such as
-              Instagram, Facebook, LinkedIn, Twitter, and YouTube. We analyze your audience and
-              competitors to design content that performs. From curated graphics to high-quality
-              video snippets, we manage every aspect of your content lifecycle—planning, creation,
-              scheduling, and performance tracking. Whether it's launching a new campaign or
-              building long-term engagement, we ensure your brand remains visually consistent,
-              relevant, and engaging across all platforms.
+              Crafted Strategies for Every Platform We create tailored content
+              and strategies for Instagram, Facebook, LinkedIn, X, and
+              more—ensuring your brand shines where your audience spends their
+              time.
+            </p>
+            <h4>You get:</h4>
+            <ul>
+              <li>• Original, on-brand posts that spark engagement</li>
+              <li>• Consistent messaging across all channels</li>
+              <li>• Creative campaigns that capture attention</li>
+            </ul>
+            <p>
+              Every post is designed to connect, inspire, and grow your
+              community.
             </p>
           </div>
           <div className="point">
-            <h3>• Community Management & Growth</h3>
+            <h3>Community Management & Growth</h3>
             <p>
-              We believe that social media is more than just content—it's about building
-              relationships. Our community managers actively monitor your pages, respond to
-              customer queries, manage comments, and engage in real-time to nurture loyalty.
-              We use engagement tactics like polls, giveaways, and Q&As to build a genuine
-              community around your brand. With detailed analytics and sentiment tracking,
-              we adapt strategies for continuous improvement and steady follower growth.
+              Turn Followers into Loyal Fans We actively manage your social
+              presence, building real relationships and fostering a vibrant
+              online community.
             </p>
+            <h4>You benefit from:</h4>
+            <ul>
+              <li>• Prompt responses to comments and messages</li>
+              <li>• Proactive engagement with your audience</li>
+              <li>• Organic growth and improved brand reputation</li>
+            </ul>
+            <p>Your brand becomes a trusted voice people want to follow.</p>
           </div>
           <div className="point">
-            <h3>• Social Media Advertising</h3>
+            <h3>Social Media Advertising</h3>
             <p>
-              Our advertising specialists create targeted campaigns to maximize your ROI across
-              Meta (Facebook & Instagram), LinkedIn, X (Twitter), and other platforms. Whether
-              your goal is brand awareness, lead generation, or website conversions, we fine-tune
-              each campaign with custom audiences, A/B testing, and performance analytics. We
-              ensure your ads reach the right people at the right time, with compelling creatives
-              and calls to action that convert. With continuous optimization and reporting, we help
-              you scale effectively and sustainably.
+              Reach the Right People, Fast Our targeted ad campaigns put your
+              brand in front of those who matter most—driving measurable
+              results.
             </p>
+            <h4>Expect:</h4>
+            <ul>
+              <li>• Eye-catching ad creatives</li>
+              <li>• Precise audience </li>
+              <li>• targeting Continuous optimization for the best ROI</li>
+            </ul>
+            <p>We help you turn social engagement into real business growth.</p>
           </div>
         </div>
       </div>

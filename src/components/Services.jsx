@@ -9,9 +9,9 @@ function Services() {
         <div className="service">
           <h2>Web Development</h2>
           <p>
-            Web Development Services: Our web development services combine
-            creativity and functionality to craft websites that resonate with
-            your audience and drive conversions.
+            Still Stuck With a Website That Doesn’t Convert? Discover how a
+            smart redesign can turn visitors into loyal customers—fast. See the
+            difference a pro-built site makes.
           </p>
           <Link to="/web">
             <button>
@@ -22,9 +22,9 @@ function Services() {
         <div className="service">
           <h2>Social-Media Management</h2>
           <p>
-            Social Media Management: We create and manage engaging social media
-            strategies that build brand awareness, foster community, and boost
-            customer engagement across all major platforms.
+            Wish Your Social Media Actually Delivered Results? Stop guessing.
+            Start seeing measurable growth, more leads, and real conversations.
+            Let’s make your brand the talk of the timeline.
           </p>
           <Link to="/social-media">
             <button>
@@ -35,9 +35,9 @@ function Services() {
         <div className="service">
           <h2>Search Engine Optimization</h2>
           <p>
-            SEO Services: Enhance your online visibility and organic growth with
-            our comprehensive SEO strategies, propelling your website to the top
-            of search engine rankings.
+            Wish Your Website Attracted More Than Just Clicks? We turn search
+            visibility into real growth and lasting authority. Let’s make your
+            brand stand out on every results page.
           </p>
           <Link to="/seo">
             <button>
@@ -48,9 +48,9 @@ function Services() {
         <div className="service">
           <h2>Graphic Work</h2>
           <p>
-            Graphic Design Services: From logos to promotional content, we
-            deliver visually stunning designs that reflect your brand identity
-            and captivate your target audience.
+            Want Every Design to Tell Your Story? We blend creativity and
+            strategy for visuals that truly connect. Make your brand message
+            impossible to ignore.
           </p>
           <Link to="/graphic">
             <button>
@@ -61,9 +61,9 @@ function Services() {
         <div className="service">
           <h2>Ads Management</h2>
           <p>
-            Ads Management: Maximize ROI with expertly crafted and data-driven
-            advertising campaigns across Google, Meta, and other platforms to
-            reach the right audience at the right time.
+            Wish Your Ads Delivered More Than Just Clicks? Unlock smarter
+            strategies that turn impressions into loyal customers. Let’s make
+            every dollar count.
           </p>
           <Link to="/ads">
             <button>
@@ -74,9 +74,10 @@ function Services() {
         <div className="service">
           <h2>Branding Work</h2>
           <p>
-            Branding Services: We help shape your brand’s voice, vision, and
-            visual identity, ensuring consistency and impact across all customer
-            touchpoints.
+            Ready to Tell Your Brand’s Story with Confidence? Our team crafts
+            thoughtful branding that reflects your values and vision—so you can
+            make a lasting impression. See how a clear identity can elevate your
+            business.
           </p>
           <Link to="/brand">
             <button>

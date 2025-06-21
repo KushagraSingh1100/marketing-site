@@ -9,59 +9,70 @@ function MarketingService() {
           Development
         </h1>
         <p>
-          Web Development Services: Our web development services combine
-          creativity and functionality to craft websites that resonate with your
-          audience and drive conversions.
+          Our web development expertise spans industries and business goals.
+          From sleek portfolios to robust enterprise platforms, we deliver
+          tailored solutions that blend innovative design with flawless
+          functionality—helping your brand stand out and succeed online.
         </p>
       </div>
       <div className="service-page-bottom">
-        <h1>Our Comprehensive Web Development Solutions</h1>
+        <h1>End-to-End Solutions for Every Business</h1>
         <h4>
-          At Ignite Digitals, we offer a comprehensive suite of Web Development
-          services that cater to diverse industries and business needs. Our
-          expertise includes:
+          At Ignite Digitals, we don’t just build websites—we create digital
+          experiences that captivate your audience and turn visitors into loyal
+          customers.
         </h4>
         <div className="service-page-bottom-points">
           <div className="point">
-            <h3>• Responsive WordPress Website Development</h3>
+            <h3>Responsive WordPress Website Development</h3>
             <p>
-              Our expert team of WordPress developers in our ageny is keen to
-              deliver the best WordPress services from planning and design to
-              development. Besides the pro-WordPress developers, we provide a
-              satisfactory experience to our clients with a high-quality project
-              management system. We help to create your success story with a
-              professional WordPress website. Our skilled team is capable of
-              creating a fully functioning responsive WordPress website to adapt
-              to mobile devices. To build your brand credibility, we dedicatedly
-              create a seamless web and mobile experience.
+              Build a Website That Works Everywhere We create responsive
+              WordPress websites that look stunning and perform flawlessly on
+              every device.
+            </p>
+            <h4>Your site will be:</h4>
+            <ul>
+              <li>• Fast, secure, and SEO-friendly</li>
+              <li>• Easy to update as your business grows</li>
+              <li>• Custom-designed to match your brand</li>
+            </ul>
+            <p>
+              Whether you need a corporate site, portfolio, or blog, we deliver
+              a solution that’s built to impress and built to last.
             </p>
           </div>
           <div className="point">
-            <h3>• Custom Programming</h3>
+            <h3>Custom Programming</h3>
             <p>
-              At Digital Kangaroos, we are keen on studying algorithms and
-              designing and developing customised websites for your needs and
-              specifications. We specialise in building products suitable to
-              your brand and changing technology. We have been the most trusted
-              name in building robust, secure, scalable custom websites,
-              mobile-responsive web app software, and e-commerce sites in a
-              result-oriented direction. With advanced security measures, we
-              ensure site security to the best degree.
+              Solutions as Unique as Your Business. When templates can’t
+              deliver, our custom programming brings your vision to life.{" "}
+            </p>
+            <h4>You get:</h4>
+            <ul>
+              <li>• Bespoke web applications and features</li>
+              <li>• Seamless integration with your existing systems</li>
+              <li>• Secure, scalable, and reliable code</li>
+            </ul>
+            <p>
+              We make sure your website works exactly the way you want—no
+              compromises.
             </p>
           </div>
           <div className="point">
-            <h3>• Shopify Websites</h3>
+            <h3>Shopify Websites</h3>
             <p>
-              Our team of professional Shopify designers and Shopify developers
-              research the niche market and curate a personalised Shopify
-              website. At Digital Kangaroos, you get the fastest trending
-              solutions from scratch. We target rapid business growth by
-              building a revenue-oriented Shopify website. Our dedicated team of
-              Shopify developers, designs a website equipped with powerful
-              marketing tools to convert your leads. Our professional designers
-              create unique Shopify designs to open a new world of opportunities
-              for you. We understand your brand requirements and deliver the
-              website on time.
+              Grow Your Online Store with Confidence We design Shopify stores
+              that are easy to manage and built to convert.
+            </p>
+            <h4>Expect:</h4>
+            <ul>
+              <li>• Visually compelling, branded storefronts</li>
+              <li>• Fast, smooth shopping experiences</li>
+              <li>• Optimized checkouts for maximum sales</li>
+            </ul>
+            <p>
+              Your store will attract visitors—and turn them into loyal
+              customers.
             </p>
           </div>
         </div>

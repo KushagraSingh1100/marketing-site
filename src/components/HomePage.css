@@ -98,8 +98,8 @@
 
 .vertical-contact {
     position: absolute;
-    top: 50%;
-    right: -2%;
+    top: 35%;
+    right: -1.5%;
     transform: rotate(-0.25turn);
 }
 
