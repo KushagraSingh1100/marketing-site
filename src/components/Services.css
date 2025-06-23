@@ -67,6 +67,5 @@
 }
 
 .service span {
-    margin-left: 0.3em;
-    color: black;
+    color: rgb(182, 182, 182);
 }
