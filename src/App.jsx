@@ -14,6 +14,10 @@ import SeoOptimization from "./components/SeoService.jsx";
 import BrandManagementService from "./components/BrandManagementService.jsx";
 import GraphicService from "./components/GraphicService.jsx";
 import AdManagementService from "./components/AdManagementService.jsx";
+import Posts from "./pages/Posts.jsx";
+import Posters from "./pages/Posters.jsx";
+import Banners from "./pages/Banners.jsx";
+import Pamphlets from "./pages/Pamphlets.jsx";
 
 function App() {
   return (
@@ -40,6 +44,10 @@ function App() {
           <Route path="/brand" element={<BrandManagementService />} />
           <Route path="/graphic" element={<GraphicService />} />
           <Route path="/ads" element={<AdManagementService />} />
+          <Route path="/posts" element={<Posts/>}/>
+          <Route path="/posters" element={<Posters/>}/>
+          <Route path="/banners" element={<Banners/>}/>
+          <Route path="/pamphlets" element={<Pamphlets/>}/>
         </Routes>
         <Footer />
       </Router>

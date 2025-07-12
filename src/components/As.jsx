@@ -58,7 +58,7 @@ const As = () => {
             businesses stop playing small. What started as side projects and
             late-night strategy sessions soon grew into something bigger—a
             full-fledged digital marketing agency with one simple belief:{" "}
-            <span>👉 Your success isn’t luck. It’s strategy.</span>
+            <br /><span>👉 Your success isn’t luck. It’s strategy.</span>
           </p>
           <p>
             We’ve seen too many great businesses get buried under bad marketing.

@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { Link } from "react-router";
 
 function Navbar() {
   return (
@@ -25,7 +26,9 @@ function Navbar() {
             </li>
           </ul>
         </div>
+        <Link to="https://forms.gle/G7T94PEeJ1Vj6Mxg8">
         <button>Book a Demo</button>
+        </Link>
       </div>
     </div>
   );

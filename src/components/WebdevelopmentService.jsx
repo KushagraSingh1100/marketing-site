@@ -32,9 +32,9 @@ function MarketingService() {
             </p>
             <h4>Your site will be:</h4>
             <ul>
-              <li>• Fast, secure, and SEO-friendly</li>
-              <li>• Easy to update as your business grows</li>
-              <li>• Custom-designed to match your brand</li>
+              <li>Fast, secure, and SEO-friendly</li>
+              <li>Easy to update as your business grows</li>
+              <li>Custom-designed to match your brand</li>
             </ul>
             <p>
               Whether you need a corporate site, portfolio, or blog, we deliver

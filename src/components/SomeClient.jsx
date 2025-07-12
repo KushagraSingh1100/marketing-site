@@ -3,28 +3,9 @@ import "./SomeClient.css";
 
 const SomeClient = () => {
   const clients = [
-    { name: "Octave Mettle", logo: "/octave.png" },
-    { name: "Azon Steel", logo: "/octave.png" },
-    { name: "Guru Ram Das Academy", logo: "/octave.png" },
-    { name: "QQ Solutions", logo: "/octave.png" },
-    { name: "Right Horizons", logo: "octave.png" },
-    { name: "Shyam Medtech", logo: "octave.png" },
-    { name: "Service Print & Copy", logo: "avon.png" },
-
-    { name: "Bhavya Industries", logo: "avon.png" },
-    { name: "Craftsmen", logo: "avon.png" },
-    { name: "Initial Security", logo: "qq.png" },
-    { name: "Modern Orthodontics", logo: "qq.png" },
-    { name: "Happyj", logo: "avon.png" },
-    { name: "Hombale Films", logo: "qq.png" },
-    { name: "Recruiteze", logo: "avon.png" },
-
-    { name: "Bharat International", logo: "octave.png" },
-    { name: "Ortho Derma", logo: "shyam.png" },
-    { name: "Future Finx", logo: "shyam.png" },
-    { name: "Stryder", logo: "shyam.png" },
-    { name: "Vega", logo: "shyam.png" },
-    { name: "Wathif", logo: "shyam.png" },
+    { name: "STM Riders", logo: "/clients/STM Riders.png" },
+    { name: "Eva-Ceramic Tiles", logo: "/clients/Eva-Ceramic-Tiles-Morbi.webp" },
+    { name: "Armus Digital", logo: "/clients/Duotone Logo Black.png" },
   ];
 
   return (

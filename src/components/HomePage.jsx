@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./HomePage.css";
+import { Link } from "react-router";
 import Carousel1 from "../assets/marketing1.jpg";
 import Carousel2 from "../assets/marketing2.jpg";
 import Carousel3 from "../assets/marketing3.jpg";
@@ -72,7 +73,9 @@ function HomePage() {
             Take the shortcut to market domination<span>.</span>
           </h1>
           <button>
+            <Link to="https://forms.gle/G7T94PEeJ1Vj6Mxg8">
             <h3>Book Your Free Consultation</h3>
+            </Link>
           </button>
         </div>
       </div>

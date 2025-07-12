@@ -1,0 +1,12 @@
+.images-page{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+
+.images-page img{
+    height: 90vh;
+}

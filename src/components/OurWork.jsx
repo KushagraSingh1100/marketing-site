@@ -2,29 +2,29 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import "./OurWork.css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Link } from "react-router";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const works = [
   {
-    title: "Social Media Marketing",
-    image: "/work1.jpg",
+    title: "Posts",
+    image: "/works/Post (2).png",
   },
   {
-    title: "Web Design",
-    image: "/work2.jpg",
+    title: "Banners",
+    image: "/works/Banner.png",
+  },
+];
+
+const works1 = [
+  {
+    title: "Posters",
+    image: "/works/Poster.png",
   },
   {
-    title: "Brand Identity",
-    image: "/work3.jpg",
-  },
-  {
-    title: "App Development",
-    image: "/work3.jpg",
-  },
-  {
-    title: "Video Production",
-    image: "/work2.jpg",
+    title: "Pamphlets",
+    image: "/works/Post (3).png",
   },
 ];
 
@@ -101,16 +101,30 @@ export default function OurWork() {
       <div className="ourwork-card-container">
         <div className="ourwork-left" ref={leftSectionRef}>
           {works.map((work, index) => (
-            <div key={index} className="ourwork-card ourwork-card-left">
-              <img src={work.image} alt={work.title} className="ourwork-img" />
-            </div>
+            <Link to={`/${work.title.toLowerCase()}`}>
+              <div key={index} className="ourwork-card ourwork-card-left">
+                <h1>{work.title}</h1>
+                <img
+                  src={work.image}
+                  alt={work.title}
+                  className="ourwork-img"
+                />
+              </div>
+            </Link>
           ))}
         </div>
         <div className="ourwork-right" ref={rightSectionRef}>
-          {works.map((work, index) => (
-            <div key={index} className="ourwork-card ourwork-card-right">
-              <img src={work.image} alt={work.title} className="ourwork-img" />
-            </div>
+          {works1.map((work, index) => (
+            <Link to={`/${work.title.toLowerCase()}`}>
+              <div key={index} className="ourwork-card ourwork-card-right">
+                <h1>{work.title}</h1>
+                <img
+                  src={work.image}
+                  alt={work.title}
+                  className="ourwork-img"
+                />
+              </div>
+            </Link>
           ))}
         </div>
       </div>
