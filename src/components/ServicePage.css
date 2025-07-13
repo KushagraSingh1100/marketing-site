@@ -1,86 +1,149 @@
 .service-page {
-    height: max-content;
-    width: 100%;
+  height: max-content;
+  width: 100%;
 }
 
 .service-page-top {
-    height: 40vh;
-    width: 100%;
-    background-color: rgb(36, 36, 36);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15vw;
+  height: 40vh;
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15vw;
+  flex-wrap: wrap;
+  padding: 2vw;
+  box-sizing: border-box;
 }
 
 .service-page-top h1 {
-    text-align: start;
-    padding: 0;
-    margin: 0;
-    font-size: 4vw;
+  text-align: start;
+  padding: 0;
+  margin: 0;
+  font-size: 4vw;
+  color: white;
+  min-width: 200px;
 }
 
 .service-page-top p {
-    color: white;
-    width: 50%;
-    font-size: 1.5vw;
-    font-weight: 100;
+  color: white;
+  width: 50%;
+  font-size: 1.5vw;
+  font-weight: 100;
+  min-width: 250px;
 }
 
-.service-page-bottom{
-    padding: 5vw 3vw;
-    color:black;
+.service-page-bottom {
+  padding: 5vw 3vw;
+  color: black;
 }
 
-.service-page-bottom h1{
-    color: rgb(83, 83, 83);
-    font-size: 3vw;
-    margin: 0;
-    padding: 0;
+.service-page-bottom h1 {
+  color: rgb(83, 83, 83);
+  font-size: 3vw;
+  margin: 0;
+  padding: 0;
 }
 
-.service-page-bottom p{
-    color: black;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
+.service-page-bottom p {
+  color: black;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
 }
 
-.point{
-    background-color: rgba(194, 194, 194, 0.211);
-    display: flex;
-    width: 100vw;
+.point {
+  background-color: rgba(194, 194, 194, 0.211);
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  padding: 0.5vw 2vw 2vw;
+  box-sizing: border-box;
+}
+
+.service-page-bottom-points {
+  gap: 3vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.service-page-bottom-points h3 {
+  color: rgb(41, 41, 41);
+  width: max-content;
+}
+
+.service-page-bottom-points h4 {
+  margin-top: 0.5vw;
+  margin-bottom: 0;
+}
+
+.service-page-bottom-points p {
+  width: 100%;
+  word-break: break-word;
+}
+
+.service-page-bottom-points ul {
+  margin-top: 0.5vw;
+}
+
+.service-page-bottom-points ul li {
+  color: black;
+}
+
+
+/* ✅ RESPONSIVE MEDIA QUERIES */
+@media (max-width: 1024px) {
+  .service-page-top {
     flex-direction: column;
-    padding: 0.5vw 2vw;
-    padding-bottom: 2vw;
+    gap: 2vw;
+    height: auto;
+    text-align: center;
+  }
+
+  .service-page-top h1 {
+    font-size: 6vw;
+  }
+
+  .service-page-top p {
+    width: 90%;
+    font-size: 2.5vw;
+  }
+
+  .service-page-bottom h1 {
+    font-size: 5vw;
+  }
 }
 
-.service-page-bottom-points{
-    gap: 3vw;
-    display: flex;
-    flex-direction: row;
-}
+@media (max-width: 768px) {
+  .service-page-top {
+    gap: 4vw;
+    padding: 5vw 3vw;
+  }
 
-.service-page-bottom-points h3{
-    color: rgb(41, 41, 41);
-    width: max-content;
-}
+  .service-page-top h1 {
+    font-size: 7vw;
+  }
 
-.service-page-bottom-points h4{
-    margin-top: 0.5vw;
-    margin-bottom: 0;
-}
+  .service-page-top p {
+    font-size: 3.5vw;
+  }
 
-.service-page-bottom-points p{
+  .service-page-bottom h1 {
+    font-size: 6vw;
+  }
+
+  .service-page-bottom-points {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .point {
     width: 100%;
-    word-break: keep-all;
-}
+    padding: 5vw;
+  }
 
-.service-page-bottom-points ul li{
-    
-    color: black;
-}
-
-.service-page-bottom-points ul{
-    margin-top: 0.5vw;
+  .service-page-bottom-points p {
+    font-size: 1rem;
+  }
 }

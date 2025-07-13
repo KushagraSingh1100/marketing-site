@@ -1,8 +1,10 @@
 .home-page {
     width: 100%;
-    height: 120vh;
+    min-height: 100vh;
+    /* use min-height instead of fixed 120vh */
     position: relative;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .home-carousel {
@@ -13,16 +15,17 @@
 }
 
 .carousel-image-wrapper {
-    position: relative;
-    width: 100%;
-    height: 75%;
-    overflow: hidden;
-    background-color: rgb(32, 32, 32);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(32, 32, 32);
 }
+
 
 .carousel-image {
     width: 100%;
-    height: 120%;
+    height: 100%;
     object-fit: cover;
     opacity: 0;
     filter: brightness(30%);
@@ -43,7 +46,6 @@
     }
 }
 
-
 .home-text {
     position: absolute;
     top: 40%;
@@ -58,13 +60,11 @@
     max-width: 1500px;
 }
 
-
 .home-text h1 {
     font-size: 2.6em;
     margin: 0;
     color: rgb(255, 255, 255);
 }
-
 
 .home-text h3 {
     font-size: 2em;
@@ -85,11 +85,11 @@
     border-radius: 1em;
     background-color: white;
     margin-top: 1.5em;
+}
 
-    &:hover {
-        opacity: 75%;
-        cursor: pointer;
-    }
+.home-text button:hover {
+    opacity: 75%;
+    cursor: pointer;
 }
 
 .home-text span {
@@ -109,9 +109,88 @@
     background-color: rgb(255, 217, 0);
     color: black;
     border-radius: 2em;
+}
 
-    &:hover {
-        cursor: pointer;
-        opacity: 75%;
+.vertical-contact button:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.number {
+    display: grid;
+    column-gap: 10vw;
+    grid-template-columns: auto auto;
+}
+
+.numbers h1 {
+    font-size: 2vw;
+    color: rgb(192, 192, 192);
+}
+
+/* ---------------- Responsive Breakpoints ---------------- */
+
+@media (max-width: 1024px) {
+    .home-text h1 {
+        font-size: 2rem;
+    }
+
+    .home-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .vertical-contact {
+        right: -3%;
+    }
+
+    .numbers h1 {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-text {
+        top: 45%;
+        width: 90%;
+    }
+
+    .home-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .home-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .home-text button {
+        font-size: 1rem;
+        padding: 0.75em 1.5em;
+    }
+
+    .vertical-contact {
+        display: none;
+        /* hide on small screens */
+    }
+
+    .numbers {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .number {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .numbers h1 {
+        font-size: 5vw;
     }
 }

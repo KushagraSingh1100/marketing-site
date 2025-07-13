@@ -1,12 +1,11 @@
 .footer {
   background-color: #000;
   color: rgb(255, 217, 0);
-  padding: 60px 20px 30px;
   font-family: Arial, sans-serif;
   position: relative;
   border-top: 1px solid #ffff00;
   margin: 0;
-  padding: 0;
+  padding: 60px 20px 30px;
 }
 
 .footer-content {
@@ -38,10 +37,12 @@
   display: flex;
   gap: 40px;
   min-width: 300px;
+  flex-wrap: wrap;
 }
 
 .address {
   flex: 1;
+  min-width: 200px;
 }
 
 .address h3 {
@@ -104,6 +105,7 @@
   gap: 15px;
   margin-bottom: 20px;
   padding-left: 5%;
+  flex-wrap: wrap;
 }
 
 .social-icon {
@@ -141,13 +143,12 @@
   font-size: 0.8rem;
   color: #666;
   justify-content: center;
-  /* padding-right: 3.5vw;
-  padding-bottom: 2vw; */
 }
 
 .footer-links {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .footer-links a {
@@ -155,11 +156,53 @@
   text-decoration: none;
 }
 
+.logo-bottom {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.logo-bottom h1 {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-bottom img {
+  height: 5em;
+  width: auto;
+  max-width: 100%;
+}
+
+.company-description {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-a1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* ------------------- Responsive Breakpoints ------------------- */
+
 @media (max-width: 768px) {
   .footer-content,
   .footer-addresses,
-  .footer-copyright {
+  .footer-copyright,
+  .footer-a1 {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .footer-nav {
@@ -173,36 +216,21 @@
   .footer-links {
     justify-content: center;
   }
-}
 
-.logo-bottom{
-    display: flex;
-    align-items: center;
-}
+  .footer-left,
+  .address {
+    width: 100%;
+  }
 
-.logo-bottom h1{
-    font-weight: 700;
-    padding:0;
-    margin:0;
-}
+  .footer-logo img {
+    margin: 0 auto;
+  }
 
-.logo-bottom img{
-    height: 6em;
-}
+  .logo-bottom {
+    justify-content: center;
+  }
 
-.company-description {
-  font-size: 0.8rem;
-  color: white;
-}
-
-.logo-text {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.footer-a1{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  .footer-divider {
+    margin: 30px 0;
+  }
 }

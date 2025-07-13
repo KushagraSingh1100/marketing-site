@@ -1,3 +1,4 @@
+/* Base styles - apply to all screen sizes, typically mobile-first */
 .ourwork {
   height: min-content;
   padding: 50px 20px;
@@ -9,28 +10,30 @@
 }
 
 .ourwork-title {
-  font-size: 3.5em;
+  font-size: 2.5em;
+  /* Adjusted for smaller screens */
   font-weight: bold;
-  /* margin-bottom: 40px; */
   color: rgb(255, 217, 0);
+  margin-bottom: 30px;
+  /* Added some margin */
 }
 
 .ourwork-card-container {
   display: flex;
+  flex-direction: column;
+  /* Stack cards vertically on small screens */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2vw;
+  gap: 30px;
+  /* Use px for consistent spacing on small screens */
   perspective: 1000px;
 }
 
-.ourwork-left {
-  width: 45vw;
-  transform-style: preserve-3d;
-}
-
+.ourwork-left,
 .ourwork-right {
-  width: 45vw;
+  width: 90vw;
+  /* Full width for cards on small screens */
   transform-style: preserve-3d;
 }
 
@@ -50,51 +53,160 @@
 .ourwork-card {
   position: relative;
   cursor: pointer;
+  /* Ensure this parent has a defined height so absolute positioning works relative to it */
+  height: 100%;
+  /* Important for the h1 to center within the card's visual space */
+  width: 100%;
 }
 
+/* Corrected h1 centering */
 .ourwork-card h1 {
   position: absolute;
   color: white;
-  font-size: 5vw;
-  top: 30%;
-  left: 48%;
+  font-size: 8vw;
+  /* Scales with viewport width */
+  text-align: center;
+  /* Ensures text is horizontally centered within its own box */
+  width: 100%;
+  /* Make sure h1 takes full width of its parent for horizontal centering */
+
+  /* The core for vertical centering */
+  top: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
+
   z-index: 1;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  white-space: nowrap;
+  /* Prevent text from wrapping, crucial for single-line centering */
+  padding: 0 10px;
+  /* Add a little horizontal padding to prevent text from touching edges */
+  box-sizing: border-box;
+  /* Include padding in the width calculation */
 }
 
-.ourwork-card-left {
-  box-shadow: -10px 2px 40px rgb(0, 0, 0, 0.5);
-  height: 60vh;
+.ourwork-card-left,
+.ourwork-card-right {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  height: 40vh;
+  /* Adjusted height for smaller screens */
   width: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   border-radius: 2rem;
   overflow: hidden;
   transform-style: preserve-3d;
   backface-visibility: hidden;
-  transform: translateX(-300);
   will-change: transform, opacity;
   opacity: 0;
   background-color: white;
   color: #000;
 }
 
+/* Specific adjustments for GSAP animations (unchanged) */
+.ourwork-card-left {
+  transform: translateX(-300px);
+}
+
 .ourwork-card-right {
-  box-shadow: 10px 2px 40px rgb(0, 0, 0, 0.5);
-  height: 60vh;
-  width: 100%;
-  margin-top: 5rem;
-  border-radius: 2rem;
-  overflow: hidden;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  transform: translateX(300);
-  will-change: transform, opacity;
-  opacity: 0;
+  transform: translateX(300px);
 }
 
 html,
 body,
 #root {
   transform-style: preserve-3d;
+}
+
+/* --- Media Queries (mostly unchanged, ensuring h1 styles are consistent) --- */
+
+/* Tablets and larger phones (e.g., 768px and up) */
+@media (min-width: 768px) {
+  .ourwork-title {
+    font-size: 3em;
+  }
+
+  .ourwork-left,
+  .ourwork-right {
+    width: 48vw;
+  }
+
+  .ourwork-card h1 {
+    font-size: 6vw;
+    /* Adjusted for larger tablets */
+  }
+
+  .ourwork-card-left,
+  .ourwork-card-right {
+    height: 50vh;
+  }
+
+  .ourwork-card-container {
+    gap: 2.5vw;
+  }
+}
+
+/* Desktops and larger screens (e.g., 1024px and up) */
+@media (min-width: 1024px) {
+  .ourwork-title {
+    font-size: 3.5em;
+  }
+
+  .ourwork-card-container {
+    flex-direction: row;
+    gap: 2vw;
+  }
+
+  .ourwork-left,
+  .ourwork-right {
+    width: 45vw;
+  }
+
+  .ourwork-card h1 {
+    font-size: 5vw;
+    /* Original size */
+  }
+
+  .ourwork-card-left {
+    margin-bottom: 5rem;
+  }
+
+  .ourwork-card-right {
+    margin-top: 5rem;
+  }
+
+  .ourwork-card-left,
+  .ourwork-card-right {
+    height: 60vh;
+  }
+}
+
+/* Extra large screens (e.g., 1440px and up) */
+@media (min-width: 1440px) {
+  .ourwork {
+    padding: 60px 40px;
+    padding-top: 6vw;
+  }
+
+  .ourwork-title {
+    font-size: 4em;
+  }
+
+  .ourwork-card-container {
+    gap: 3vw;
+  }
+
+  .ourwork-left,
+  .ourwork-right {
+    width: 42vw;
+  }
+
+  .ourwork-card h1 {
+    font-size: 4vw;
+  }
+
+  .ourwork-card-left,
+  .ourwork-card-right {
+    height: 65vh;
+  }
 }

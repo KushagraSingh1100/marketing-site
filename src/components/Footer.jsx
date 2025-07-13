@@ -27,8 +27,8 @@ const Footer = () => {
           <div className="footer-addresses">
             <div className="address india">
               <h3>India</h3>
-              <p>SCO-4, 1st Floor, Omaxe Royal</p>
-              <p>Residency, Ludhiana, 142022</p>
+              <p>Lovely Professional University</p>
+              <p>Phagwara, Punjab - 144411</p>
               <a href="tel:+919580677477" className="phone-link">
                 +91 9580677477
               </a>
@@ -58,12 +58,6 @@ const Footer = () => {
             <FaWhatsappSquare />
           </a>
         </div>
-        {/* 
-        <nav className="footer-nav">
-          <a href="/about">About</a>
-          <a href="/services">Services</a>
-        </nav> */}
-
         <div className="footer-copyright">
           <p>
             © Ignite Digitals | All Rights Reserved {new Date().getFullYear()}
