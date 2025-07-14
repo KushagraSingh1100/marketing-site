@@ -10,3 +10,25 @@
 .images-page img{
     height: 90vh;
 }
+
+@media (max-width: 768px) {
+    .images-page{
+        margin: 3vw 0;
+        gap: 3vw;
+    }
+    .images-page img{
+        height: auto;
+        width: 95vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .images-page{
+        margin: 3vw 0;
+        gap: 3vw;
+    }
+    .images-page img{
+        height: auto;
+        width: 95vw;
+    }
+}

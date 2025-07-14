@@ -124,13 +124,13 @@
 }
 
 .number {
-    display: grid;
-    column-gap: 10vw;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
 }
 
 .numbers h1 {
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 0;
     color: rgb(192, 192, 192);
 }
@@ -206,6 +206,6 @@
     }
 
     .numbers h1 {
-        font-size: 5vw;
+        font-size: 10vw;
     }
 }
