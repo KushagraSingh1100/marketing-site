@@ -128,17 +128,21 @@ function HomePage() {
 
         <div className="numbers" ref={numbersRef}>
           <div className="number">
-            <div>
-              <h1>{leads}+ Leads Generated for Local Businesses</h1>
+            <div className="num">
+              <h1>{leads}+</h1>
+              <p>Leads Generated for Local Businesses</p>
             </div>
-            <div>
-              <h1>{businesses}+ Businesses Grown Across Niches</h1>
+            <div className="num">
+              <h1>{businesses}+</h1>
+              <p>Businesses Grown Across Niches</p>
             </div>
-            <div>
-              <h1>{creatives}+ Event Creatives & Posters Delivered</h1>
+            <div className="num">
+              <h1>{creatives}+</h1>
+              <p>Event Creatives & Posters Delivered</p>
             </div>
-            <div>
-              <h1>{funnels}+ Funnels & Automation Systems Deployed</h1>
+            <div className="num">
+              <h1>{funnels}+</h1>
+              <p>Funnels & Automation Systems Deployed</p>
             </div>
           </div>
         </div>

@@ -209,6 +209,11 @@
     justify-content: center;
   }
 
+  .social-links{
+    margin-top: 2vw;
+    justify-content: center;
+  }
+
   .footer-copyright p {
     text-align: center;
   }

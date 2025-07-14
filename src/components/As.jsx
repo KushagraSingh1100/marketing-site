@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./As.css";
 
 const As = () => {
-  const images = ["/aos1.png", "/aos2.png"];
+  const images = ["/banner1.jpg", "/banner2.jpg"];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [fade, setFade] = useState(false);
 
@@ -25,27 +25,27 @@ const As = () => {
     <div className="As-main">
       <div className="As-Upper">
         <div className="aos">
-          <img src="/webdev.png" alt="Web Development" />
+          <img src="/dev.jpg" alt="Web Development" />
           <p>Web Development</p>
         </div>
         <div className="aos">
-          <img src="/ecom.png" alt="Web Development" />
+          <img src="/banding.jpg" alt="Web Development" />
           <p>Branding Work</p>
         </div>
         <div className="aos">
-          <img src="/mobapp.png" alt="Web Development" />
+          <img src="/social media.jpg" alt="Web Development" />
           <p>Social Media Management</p>
         </div>
         <div className="aos">
-          <img src="/softdev.png" alt="Web Development" />
+          <img src="/graphics.jpg" alt="Web Development" />
           <p>Graphic Work</p>
         </div>
         <div className="aos">
-          <img src="/shopify.png" alt="Web Development" />
+          <img src="/ads.jpg" alt="Web Development" />
           <p>Ads Management</p>
         </div>
         <div className="aos">
-          <img src="/seoagency.png" alt="Web Development" />
+          <img src="/seo.jpg" alt="Web Development" />
           <p>Search Engine Optimization</p>
         </div>
       </div>
@@ -57,8 +57,8 @@ const As = () => {
             Ignite Digitals began with two friends, a laptop, and a fire to help
             businesses stop playing small. What started as side projects and
             late-night strategy sessions soon grew into something bigger—a
-            full-fledged digital marketing agency with one simple belief:{" "}
-            <br /><span>👉 Your success isn’t luck. It’s strategy.</span>
+            full-fledged digital marketing agency with one simple belief: <br />
+            <span>👉 Your success isn’t luck. It’s strategy.</span>
           </p>
           <p>
             We’ve seen too many great businesses get buried under bad marketing.

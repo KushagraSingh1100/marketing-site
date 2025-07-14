@@ -131,7 +131,15 @@
 
 .numbers h1 {
     font-size: 2vw;
+    margin: 0;
     color: rgb(192, 192, 192);
+}
+
+.num{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
 }
 
 /* ---------------- Responsive Breakpoints ---------------- */
@@ -155,8 +163,13 @@
 }
 
 @media (max-width: 768px) {
+
+    .carousel-image-wrapper{
+        height: 80vh;
+    }
+
     .home-text {
-        top: 45%;
+        top: 35%;
         width: 90%;
     }
 
@@ -186,7 +199,9 @@
 
     .number {
         display: flex;
+        width: 90vw;
         flex-direction: column;
+        justify-content: center;
         row-gap: 1rem;
     }
 

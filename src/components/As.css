@@ -22,8 +22,8 @@
 }
 
 .aos img {
-  width: 90%;
-  height: auto;
+  width: 20vw;
+  height: 100%;
   border-radius: 1.75rem;
   max-width: 100%;
 }
@@ -88,7 +88,7 @@
 
 .As-Image img {
   height: 27vw;
-  margin-left: 2vw;
+  margin-left: 0vw;
   border-radius: 1.75rem;
   transition: opacity 1s ease-in-out;
   opacity: 1;
