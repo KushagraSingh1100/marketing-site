@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { CiInstagram } from "react-icons/ci";
+import { IoMdMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -39,6 +40,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="social-links">
+          <a
+            href="mailto:ignitedigitalmedia1@gmail.com"
+            className="social-icon facebook"
+          >
+            <IoMdMail />
+          </a>
           <a
             href="https://www.facebook.com/people/Ignite-Digitals/100095149449938/"
             className="social-icon facebook"
