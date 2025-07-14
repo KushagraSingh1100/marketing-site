@@ -69,44 +69,43 @@ function HomePage() {
       requestAnimationFrame(step);
     };
 
-    animateValue(0, 100, setLeads, 1000);
+    animateValue(0, 500, setLeads, 1000);
     animateValue(0, 10, setBusinesses, 1000);
     animateValue(0, 40, setCreatives, 1000);
     animateValue(0, 15, setFunnels, 1000);
   };
 
   useEffect(() => {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      const entry = entries[0];
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
 
-      // Trigger animation when entering
-      if (entry.isIntersecting && !hasAnimated) {
-        setHasAnimated(true);
-        startAnimations();
-      }
+        // Trigger animation when entering
+        if (entry.isIntersecting && !hasAnimated) {
+          setHasAnimated(true);
+          startAnimations();
+        }
 
-      // Reset animation when scrolled away (optional)
-      if (!entry.isIntersecting && hasAnimated) {
-        setHasAnimated(false); // Allow it to re-trigger next time
-      }
-    },
-    { threshold: 0.4 }
-  );
+        // Reset animation when scrolled away (optional)
+        if (!entry.isIntersecting && hasAnimated) {
+          setHasAnimated(false); // Allow it to re-trigger next time
+        }
+      },
+      { threshold: 0.4 }
+    );
 
-  const currentRef = numbersRef.current;
+    const currentRef = numbersRef.current;
 
-  if (currentRef) {
-    observer.observe(currentRef);
-  }
-
-  return () => {
     if (currentRef) {
-      observer.unobserve(currentRef);
+      observer.observe(currentRef);
     }
-  };
-}, [hasAnimated]);
 
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, [hasAnimated]);
 
   return (
     <div className="home-page">
