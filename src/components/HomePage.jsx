@@ -76,27 +76,37 @@ function HomePage() {
   };
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const entry = entries[0];
-        if (entry.isIntersecting && !hasAnimated) {
-          setHasAnimated(true);
-          startAnimations();
-        }
-      },
-      { threshold: 0.4 }
-    );
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const entry = entries[0];
 
-    if (numbersRef.current) {
-      observer.observe(numbersRef.current);
-    }
-
-    return () => {
-      if (numbersRef.current) {
-        observer.unobserve(numbersRef.current);
+      // Trigger animation when entering
+      if (entry.isIntersecting && !hasAnimated) {
+        setHasAnimated(true);
+        startAnimations();
       }
-    };
-  }, [hasAnimated]);
+
+      // Reset animation when scrolled away (optional)
+      if (!entry.isIntersecting && hasAnimated) {
+        setHasAnimated(false); // Allow it to re-trigger next time
+      }
+    },
+    { threshold: 0.4 }
+  );
+
+  const currentRef = numbersRef.current;
+
+  if (currentRef) {
+    observer.observe(currentRef);
+  }
+
+  return () => {
+    if (currentRef) {
+      observer.unobserve(currentRef);
+    }
+  };
+}, [hasAnimated]);
+
 
   return (
     <div className="home-page">
