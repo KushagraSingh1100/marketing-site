@@ -19,9 +19,6 @@ const Footer = () => {
               <img src="/IGNITE.png" alt="Ignite Digitals Logo" />
               <div className="logo-text">
                 <h1>IGNITE DIGITALS</h1>
-                <div className="company-description">
-                  Web Development & Software Company
-                </div>
               </div>
             </div>
           </Link>
