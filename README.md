@@ -1,12 +1,72 @@
-# React + Vite
+# 🎯 Marketing Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive **marketing website** built using **React** and **GSAP** for scroll-based animations.  
+This site was developed as part of a freelance project for a marketing agency to showcase their services and boost client engagement.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💼 Project Overview
 
-## Expanding the ESLint configuration
+This project is a clean, performance-optimized marketing site that reflects a bold and professional brand presence. It includes smooth animations, responsive layouts, and conversion-focused sections.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> 🛠️ **Freelance Project** | Built for a marketing agency
+
+---
+
+## ⚙️ Tech Stack
+
+- **React** – Component-based frontend framework  
+- **GSAP** – Scroll animations and transitions  
+- **CSS / Tailwind CSS** *(or your styling choice)* – Styling the UI  
+- **Vite / CRA / Next.js** *(depending on setup)* – Project scaffolding & tooling
+
+---
+
+## 🚀 Features
+
+- ✨ Scroll-triggered animations using GSAP  
+- 📱 Mobile-first responsive design  
+- 🎨 Clean and professional UI  
+- 💡 Modular React components  
+- ⚡ Optimized for speed and performance  
+
+
+---
+
+## 🧪 Getting Started Locally
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/marketing-site.git
+cd marketing-site
+```
+
+```bash
+npm install
+npm run dev
+```
+
+## 🌐 Deployment
+
+The site can be easily deployed using platforms like:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/) (with some configuration)
+
+---
+
+## 📸 Demo
+
+Add a live link below if deployed:
+
+[🔗 Live Site](https://ignitedigitalmedia.in/)
+
+---
+
+## 🙋‍♂️ Author
+
+**Kushagra Singh**  
+Freelance Frontend Developer  
+[LinkedIn](https://www.linkedin.com/in/kushagra-singh-7288a4297/) • [Portfolio](https://kushagras-portfolio.vercel.app/)
