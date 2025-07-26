@@ -17,8 +17,8 @@ This project is a clean, performance-optimized marketing site that reflects a bo
 
 - **React** – Component-based frontend framework  
 - **GSAP** – Scroll animations and transitions  
-- **CSS / Tailwind CSS** *(or your styling choice)* – Styling the UI  
-- **Vite / CRA / Next.js** *(depending on setup)* – Project scaffolding & tooling
+- **CSS** – Styling the UI  
+- **Vite** – Project scaffolding & tooling
 
 ---
 
